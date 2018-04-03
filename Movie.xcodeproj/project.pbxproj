@@ -123,7 +123,6 @@
 				A032AD36206C042600009CF4 /* Application */,
 				A032AD37206C043500009CF4 /* Resources */,
 				A032AD38206C045100009CF4 /* Extensions */,
-				A032AD39206C045D00009CF4 /* Enums */,
 				A032AD3A206C046400009CF4 /* Models */,
 				A032AD3B206C046B00009CF4 /* Modules */,
 				A032AD3C206C047000009CF4 /* Networking */,
@@ -161,13 +160,6 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		A032AD39206C045D00009CF4 /* Enums */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Enums;
-			sourceTree = "<group>";
-		};
 		A032AD3A206C046400009CF4 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,7 +172,6 @@
 		A032AD3B206C046B00009CF4 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				A032AD40206C04F500009CF4 /* MovieDetail */,
 				A032AD3F206C04EB00009CF4 /* Home */,
 			);
 			path = Modules;
@@ -200,67 +191,12 @@
 		A032AD3F206C04EB00009CF4 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				A032AD46206C054F00009CF4 /* Contract */,
 				A032AD48206C054F00009CF4 /* Interactor */,
 				A032AD4A206C054F00009CF4 /* Presenter */,
 				A032AD47206C054F00009CF4 /* Router */,
 				A032AD49206C054F00009CF4 /* View */,
 			);
 			path = Home;
-			sourceTree = "<group>";
-		};
-		A032AD40206C04F500009CF4 /* MovieDetail */ = {
-			isa = PBXGroup;
-			children = (
-				A032AD45206C054200009CF4 /* View */,
-				A032AD44206C053A00009CF4 /* Router */,
-				A032AD43206C053400009CF4 /* Presenter */,
-				A032AD42206C052C00009CF4 /* Interactor */,
-				A032AD41206C052200009CF4 /* Contract */,
-			);
-			path = MovieDetail;
-			sourceTree = "<group>";
-		};
-		A032AD41206C052200009CF4 /* Contract */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Contract;
-			sourceTree = "<group>";
-		};
-		A032AD42206C052C00009CF4 /* Interactor */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Interactor;
-			sourceTree = "<group>";
-		};
-		A032AD43206C053400009CF4 /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Presenter;
-			sourceTree = "<group>";
-		};
-		A032AD44206C053A00009CF4 /* Router */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Router;
-			sourceTree = "<group>";
-		};
-		A032AD45206C054200009CF4 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		A032AD46206C054F00009CF4 /* Contract */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Contract;
 			sourceTree = "<group>";
 		};
 		A032AD47206C054F00009CF4 /* Router */ = {

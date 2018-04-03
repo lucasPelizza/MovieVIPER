@@ -23,7 +23,7 @@ extension UICommuncationProtocol  where Self: UIViewController {
         if let mError = error as? MoyaError {
             switch mError {
             case .underlying(let uError):
-                fError = uError as! Error
+                fError = uError.0
                 break
             default:
                 break
